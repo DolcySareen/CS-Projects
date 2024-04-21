@@ -1,0 +1,100 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: saddlebrown;
+
+}
+
+div {
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    background-color:white;
+    color: #fff;
+}
+
+#signin{
+    margin-left:1500px;
+}
+
+img {
+    max-width: 50%;
+    height: 15%;
+    margin-top: 10px;
+}
+
+b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#img1{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    max-width: 30%;
+    height: 30%;
+    margin-top: 10px;
+    animation: fadeInOut 4s infinite;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+input{
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Add additional styles for responsiveness if needed */
+@media only screen and (max-width: 600px) {
+    div {
+        padding: 15px;
+    }
+
+    b {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+

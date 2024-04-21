@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Color
+comment1.params=r\ g\ b
+comment1.target=Color(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getRed()
+comment3.params=
+comment3.target=int\ getGreen()
+comment4.params=
+comment4.target=int\ getBlue()
+comment5.params=otherColor
+comment5.target=boolean\ equals(Color)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

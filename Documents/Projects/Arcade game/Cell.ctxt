@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cell
+comment1.params=
+comment1.target=Cell()
+comment2.params=c
+comment2.target=void\ setColor(Color)
+comment3.params=
+comment3.target=Color\ getColor()
+comment4.params=
+comment4.target=java.lang.String\ getImageFileName()
+comment5.params=fileName
+comment5.target=void\ setImageFileName(java.lang.String)
+numComments=6
